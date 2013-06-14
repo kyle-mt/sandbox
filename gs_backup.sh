@@ -4,7 +4,7 @@
 # (gs) Secure Backup wrapper
 # script to automate support request creation
 
-# Create backup path
+# Create and move to backup path
 SITE=$(echo $HOME | awk -F/ '{ print $3 }') 
 mkdir -p /home/$SITE/data/cloudtech/backup/ && cd $_
 pwd
