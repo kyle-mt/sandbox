@@ -10,6 +10,7 @@ from os.path import expanduser
 
 home = expanduser('~')
 hsplit = home.split('/')
+siteid = hsplit[2]
 dbhost = 'internal-db.s'+hsplit[2]+'.gridserver.com'
 targetdir = '/home/'+hsplit[2]+'/users/.home/data/cloudtech/backup/'
 script_path_arr = os.path.realpath(__file__).split(os.sep)
