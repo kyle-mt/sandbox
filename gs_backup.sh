@@ -3,7 +3,6 @@
 # Written 2013-06-14 by Fox
 # (gs) Secure Backup wrapper
 # script to automate support request creation
-# test
 
 # Create backup path
 SITE=$(echo $HOME | awk -F/ '{ print $3 }') 
