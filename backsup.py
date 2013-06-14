@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+#
 """ setting up config parser for persistence""" 
 
 import ConfigParser
